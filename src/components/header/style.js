@@ -6,12 +6,13 @@ export const HeaderSty = styled.header`
   align-items: center;
   gap: 50px;
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: #000;
   border-bottom: 2px solid #fff;
 
   @media (min-width: 768px) {
     flex-direction: row;
+    height: 600px;
   }
 
   img {
