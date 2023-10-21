@@ -1,38 +1,43 @@
-import logojs from "../../assets/jslogo.png";
+import LogoHtml from "../../assets/htmllogo.png";
+import LogoCss from "../../assets/css.png";
+import node from "../../assets/node.png";
+import jslogo from "../../assets/jslogo.png";
+import tslogo from "../../assets/tslogo.png";
+import pythonLogo from "../../assets/python.png";
+import postgres from "../../assets/postgres.png";
+import react from "../../assets/react.png";
+import { Container, UlTech } from "./style";
 
 export const TechsList = () => {
   return (
-    <div>
+    <Container>
       <h2>Tecnologias com as quais trabalhamos</h2>
-      <ul>
+      <UlTech>
         <li>
-          <img src={logojs} alt="" />
+          <img src={LogoHtml} alt="html logo" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={LogoCss} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={jslogo} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={tslogo} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={react} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={node} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={postgres} alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src={pythonLogo} alt="" />
         </li>
-        <li>
-          <img src="" alt="" />
-        </li>
-      </ul>
-    </div>
+      </UlTech>
+    </Container>
   );
 };

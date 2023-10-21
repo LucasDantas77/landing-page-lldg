@@ -1,3 +1,5 @@
+import { Contacts } from "../components/contacts";
+import { Fotter } from "../components/footer";
 import { HeaderPage } from "../components/header";
 import { Infos } from "../components/infos";
 import { TechsList } from "../components/techs";
@@ -9,6 +11,8 @@ export const HomePage = () => {
       <HeaderPage />
       <Infos />
       <TechsList />
+      <Contacts />
+      <Fotter />
     </Container>
   );
 };

@@ -6,33 +6,34 @@ export const DivContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #2c2a2a;
+  background-color: #1c1a1a;
   height: 40%;
 
   h1 {
     font-size: 40px;
-    background-color: #2c2a2a;
+    background-color: #1c1a1a;
     margin-top: 20px;
     display: flex;
     gap: 10px;
   }
   p {
     color: blue;
-    background-color: #2c2a2a;
+    background-color: #1c1a1a;
   }
 
   h3 {
     width: 90%;
     margin: 0 auto;
-    background-color: #2c2a2a;
+    background-color: #1c1a1a;
     font-size: 18px;
     font-weight: 100;
     color: #fff;
     max-width: 700px;
     line-height: 1.8;
+    font-weight: 100;
   }
   div {
-    background-color: #2c2a2a;
+    background-color: #1c1a1a;
     overflow-y: scroll;
     width: 100%;
     @media (min-width: 768px) {
